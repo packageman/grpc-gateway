@@ -1,0 +1,39 @@
+{
+  "name": "grpc-gateway",
+  "version": "1.0.0",
+  "description": "A plugin to translate a RESTful JSON API into gRPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packageman/grpc-gateway.git"
+  },
+  "keywords": [
+    "REST",
+    "gRPC",
+    "gateway"
+  ],
+  "author": "Byron Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/packageman/grpc-gateway/issues"
+  },
+  "homepage": "https://github.com/packageman/grpc-gateway#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "^3.5.1",
+    "google-protobuf": "^3.0.0",
+    "grpc": "^1.0.0",
+    "grpc-promise": "^1.1.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^4.0.1",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0",
+    "moment": "^2.19.1"
+  }
+}

@@ -1,2 +1,2 @@
 # grpc-gateway
-A gateway to proxy HTTP request to grpc
+A plugin to translate a RESTful JSON API into gRPC
